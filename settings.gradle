@@ -1,0 +1,4 @@
+rootProject.name='MallTest'
+include ':app'
+include ':BaseLib'
+include ':UserCenter'
