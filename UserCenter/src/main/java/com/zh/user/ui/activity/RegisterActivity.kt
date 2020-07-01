@@ -2,6 +2,7 @@ package com.zh.user.ui.activity
 
 import android.os.Bundle
 import android.widget.Toast
+import com.zh.baselib.net.RetrofitUtils
 import com.zh.baselib.ui.activity.BaseMvpActivity
 import com.zh.user.R
 import com.zh.user.presenter.RegisterPresenter
@@ -25,6 +26,7 @@ class RegisterActivity : BaseMvpActivity<RegisterPresenter>(), RegisterView {
                 edit_captcha.text.toString()
             )
         }
+
     }
 
     override fun onRegisterSuccess(result: Boolean) {
